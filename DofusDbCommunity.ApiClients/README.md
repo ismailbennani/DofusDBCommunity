@@ -1,5 +1,8 @@
 ﻿# DofusDB Community - API Clients
 
+> [!IMPORTANT]
+> This project is under active development. Note that not all available APIs have been implemented at this time.
+
 Provides API clients for the DofusDB API. It offers both a low-level client (`DofusDbApiClient<TResource>`) for maximum control and a high-level, fluent interface (`DofusDbQuery<TResource>`) for building requests using LINQ-like statements.
 
 ## Installation
@@ -26,7 +29,7 @@ DofusDbQuery<Item> query = DofusDbQuery.Production().Items()
 Item[] items = await query.ExecuteAsync().ToArrayAsync();
 ```
 
-> ![Note] **Known issue**
+> [!NOTE]
 > All model fields are nullable because the API supports a `select` operator for partial field selection. 
 > As a result, enabling nullable analysis may cause compiler warnings about possible null references in expression subtrees. 
 > However, these warnings are safe to ignore in this context, since the expressions are only used to determine property names for request parameters and will not cause null reference exceptions at runtime.
