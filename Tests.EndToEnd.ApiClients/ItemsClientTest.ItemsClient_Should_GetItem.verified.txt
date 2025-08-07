@@ -1,0 +1,130 @@
+﻿{
+  Id: 44,
+  TypeId: 6,
+  Type: {
+    Id: 6,
+    Name: {
+      De: Schwert,
+      En: Sword,
+      Es: Espada,
+      Fr: Épée,
+      Pt: Espada
+    },
+    SuperTypeId: 2,
+    SuperType: {
+      Id: 2,
+      Name: {
+        De: Waffe,
+        En: Weapon,
+        Es: Arma,
+        Fr: Arme,
+        Pt: Arma
+      },
+      Positions: [
+        1
+      ],
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_2
+    },
+    IsInEncyclopedia: true,
+    Plural: false,
+    Gender: Feminine,
+    RawZone: P,
+    Mimickable: true,
+    CraftXpRatio: -1,
+    CreatedAt: DateTimeOffset_3,
+    UpdatedAt: DateTimeOffset_4
+  },
+  Name: {
+    De: Hölzernes Schwert,
+    En: Twiggy Sword,
+    Es: Espada de maderucha,
+    Fr: Épée de Boisaille,
+    Pt: Espada de graveto
+  },
+  Slug: {
+    De: holzernes schwert,
+    En: twiggy sword,
+    Es: espada de maderucha,
+    Fr: epee de boisaille,
+    Pt: espada de graveto
+  },
+  Description: {
+    De: Dieses Schwert einfachster Machart wird aus eurem Charakter bestimmt keinen Helden machen.,
+    En: This basic sword won't make a hero out of you, that's for sure.,
+    Es: Espada de sencilla factura, no convertirá a tu héroe en leyenda.,
+    Fr: Épée de simple facture, elle ne fera pas de votre héros une légende.,
+    Pt: Uma espada simples que não transformará seu herói em uma lenda.
+  },
+  ImportantNotice: {},
+  Level: 7,
+  RealWeight: 1,
+  Price: 700,
+  Criteria: ,
+  CreatedAt: DateTimeOffset_5,
+  UpdatedAt: DateTimeOffset_6,
+  Img: https://api.beta.dofusdb.fr/img/items/6007.png,
+  ItemSet: false,
+  ItemSetId: -1,
+  HideEffects: false,
+  CriticalHitProbability: 30,
+  CriticalHitBonus: 5,
+  MinRange: 1,
+  Range: 1,
+  CastInLine: false,
+  CastInDiagonal: false,
+  CastTestLos: false,
+  MaxCastPerTurn: 1,
+  ApCost: 3,
+  TwoHanded: false,
+  Effects: [
+    {
+      From: 8,
+      To: 10,
+      EffectId: 100,
+      Characteristic: -1,
+      Category: 2
+    },
+    {
+      From: 7,
+      To: 10,
+      ElementId: 1,
+      EffectId: 118,
+      Characteristic: 10
+    },
+    {
+      From: 1,
+      ElementId: 1,
+      EffectId: 422,
+      Characteristic: 88
+    }
+  ],
+  IconId: 6007,
+  IsColorable: false,
+  HasLivingObjectSkinJntMood: false,
+  HasRecipe: true,
+  RecipeSlots: 2,
+  CraftXpRatio: -1.0,
+  CraftVisible: SC!5|ST!5,
+  CraftConditional: ,
+  CraftFeasible: SC!5|ST!5,
+  SecretRecipe: false,
+  BonusIsSecret: false,
+  Usable: false,
+  Targetable: false,
+  CriteriaTarget: ,
+  NonUsableOnAnother: false,
+  NeedUseConfirm: false,
+  UseAnimationId: 14,
+  Flags: 24712,
+  Cursed: false,
+  Exchangeable: true,
+  Etheral: false,
+  Enhanceable: true,
+  ObjectIsDisplayOnWeb: false,
+  IsDestructible: true,
+  IsSaleable: true,
+  IsLegendary: false,
+  Visibility: ,
+  ChangeVersion: 
+}

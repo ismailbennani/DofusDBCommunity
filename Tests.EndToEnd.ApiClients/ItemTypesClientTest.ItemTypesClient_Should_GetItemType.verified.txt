@@ -1,0 +1,36 @@
+﻿{
+  Name: {
+    De: Amulett,
+    En: Amulet,
+    Es: Amuleto,
+    Fr: Amulette,
+    Pt: Amuleto
+  },
+  SuperTypeId: 1,
+  SuperType: {
+    Name: {
+      De: Amulett,
+      En: Amulet,
+      Es: Amuleto,
+      Fr: Amulette,
+      Pt: Amuleto
+    },
+    Positions: [
+      0
+    ],
+    CreatedAt: DateTimeOffset_1,
+    UpdatedAt: DateTimeOffset_2,
+    Id: 1
+  },
+  CategoryId: 0,
+  IsInEncyclopedia: true,
+  Plural: false,
+  Gender: Feminine,
+  RawZone: ,
+  Mimickable: true,
+  CraftXpRatio: -1,
+  CreatedAt: DateTimeOffset_3,
+  UpdatedAt: DateTimeOffset_4,
+  EvolutiveTypeId: 0,
+  Id: 1
+}

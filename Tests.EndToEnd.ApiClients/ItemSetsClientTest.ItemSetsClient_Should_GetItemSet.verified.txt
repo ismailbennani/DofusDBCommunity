@@ -1,0 +1,1187 @@
+﻿{
+  Name: {
+    De: Fresssack-Set,
+    En: Gobball Set,
+    Es: Set de jalató,
+    Fr: Panoplie du Bouftou,
+    Pt: Conjunto do Papatudo
+  },
+  Slug: {
+    De: fresssack-set,
+    En: gobball set,
+    Es: set de jalato,
+    Fr: panoplie du bouftou,
+    Pt: conjunto do papatudo
+  },
+  Level: 20,
+  Items: [
+    {
+      TypeId: 16,
+      Name: {
+        De: Fresssackkapp,
+        En: Gobball Headgear,
+        Es: Sombrero de jalató,
+        Fr: Coiffe du Bouftou,
+        Pt: Chapéu do Papatudo
+      },
+      Slug: {
+        De: fresssackkapp,
+        En: gobball headgear,
+        Es: sombrero de jalato,
+        Fr: coiffe du bouftou,
+        Pt: chapeu do papatudo
+      },
+      Description: {
+        De: Dieser tolle Hut erhöht die Stärke und Intelligenz seines Träger, vorausgesetzt, dieser kann sich an den strengen Geruch gewöhnen.,
+        En: This magnificent headgear increases Strength and Intelligence... if you can stand the smell.,
+        Es: Este magnífico sombrero permite ganar fuerza e inteligencia si consigues acostumbrarte a su olor.,
+        Fr: Ce superbe chapeau permet à son porteur de gagner force et intelligence si ce dernier parvient à s'accommoder de l'odeur.,
+        Pt: Este magnífico chapéu aumenta a força e a inteligência do portador, se ele conseguir aguentar o cheiro.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_2,
+      Img: https://api.beta.dofusdb.fr/img/items/16041.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 16,
+          To: 20,
+          ElementId: 1,
+          EffectId: 118,
+          Characteristic: 10,
+          Category: 0
+        },
+        {
+          From: 16,
+          To: 20,
+          ElementId: 2,
+          EffectId: 126,
+          Characteristic: 15,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 16041,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        148
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2411
+    },
+    {
+      TypeId: 17,
+      Name: {
+        De: Fresssacksack,
+        En: Gobball Cape,
+        Es: Capa Jalosa,
+        Fr: Cape Bouffante,
+        Pt: Capa Gobbling
+      },
+      Slug: {
+        De: fresssacksack,
+        En: gobball cape,
+        Es: capa jalosa,
+        Fr: cape bouffante,
+        Pt: capa gobbling
+      },
+      Description: {
+        De: Dieses sackförmige Gewand hat alles, was man sich nur wünschen kann: es ist behaglich, widerstandsfähig, schön gefärbt und höchst selten... nur der Geruch ist eine Zumutung für jede Nasenhöhle.,
+        En: This cape was designed to please - it's hard-wearing and comfortable, it looks classy, and it's a good step up from a Novice Cloak. But it smells dreadful and plays merry hell with your nostrils. Well, what do you expect? You can't have it all.,
+        Es: Esta capa lo tiene todo: resistencia, confort, buen color, rareza... En cambio su olor puede revelarse fatal para el tabique de las fosas nasales. Vamos, que uno tampoco puede pedirlo todo...,
+        Fr: Cette cape a tout pour plaire : sa résistance, son confort, sa couleur, sa rareté... En revanche son odeur est redoutable pour les parois nasales. Mais bon, on ne peut pas tout avoir non plus.,
+        Pt: Esta capa tem tudo isso: é resistente, confortável, colorida e rara... Mas seu cheiro é terrível para as cavidades nasais. Você, obviamente, não pode ter tudo!
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_3,
+      Img: https://api.beta.dofusdb.fr/img/items/17044.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 36,
+          To: 40,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 151,
+          To: 200,
+          ElementId: -1,
+          EffectId: 174,
+          Characteristic: 44,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 17044,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        148
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2414
+    },
+    {
+      TypeId: 7,
+      Name: {
+        De: Hammer des Fresssacks,
+        En: Gobball Hammer,
+        Es: Martillo de jalató,
+        Fr: Marteau du Bouftou,
+        Pt: Martelo do Papatudo
+      },
+      Slug: {
+        De: hammer des fresssacks,
+        En: gobball hammer,
+        Es: martillo de jalato,
+        Fr: marteau du bouftou,
+        Pt: martelo do papatudo
+      },
+      Description: {
+        De: Im Benutzerhandbuch dieses Hammers steht, dass er eine kolossale Energiemenge freisetzt, wenn er korrekt eingesetzt wird. Schon wieder eines dieser Osamodas-Handbücher, die in Sadida übersetzt wurden...,
+        En: The user guide explains that this surprising hammer can release astonishingly powerful energy when correctly used. Another Osamodas' user guide translated into Sadida.,
+        Es: Las instrucciones de uso explican que este sorprendente martillo es capaz de liberar una energía colosal cuando se usa correctamente. Otro manual de instrucciones osamodas traducido en sadida...,
+        Fr: Le manuel de l'utilisateur explique que ce surprenant marteau est capable de libérer une énergie colossale lorsqu'il est correctement manié. Encore un manuel Osamodas traduit en Sadida...,
+        Pt: O manual do usuário explica que este surpreendente martelo pode lançar uma incrível energia quando corretamente usado. Outro manual para Osamoda traduzido para Sadida...
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_4,
+      Img: https://api.beta.dofusdb.fr/img/items/7023.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 4,
+          To: 8,
+          ElementId: 1,
+          EffectId: 97,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 4,
+          To: 8,
+          ElementId: 2,
+          EffectId: 99,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 16,
+          To: 20,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 1,
+          To: 0,
+          ElementId: -1,
+          EffectId: 182,
+          Characteristic: 26,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 7023,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: 15,
+      DropMonsterIds: [
+        134
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2416
+    },
+    {
+      TypeId: 9,
+      Name: {
+        De: Ring von Buhz Leichtfrier,
+        En: Bouze Lite Yeah's Ring,
+        Es: Anillo De Boz Layt Yer,
+        Fr: Anneau de Bouze le Clerc,
+        Pt: Anel de Boz Laitíer
+      },
+      Slug: {
+        De: ring von buhz leichtfrier,
+        En: bouze lite yeah's ring,
+        Es: anillo de boz layt yer,
+        Fr: anneau de bouze le clerc,
+        Pt: anel de boz laitier
+      },
+      Description: {
+        De: Dieser Ring gehörte dem berühmten Buhz Leichtfrier, dem Retter der Neuzeit, welcher den Kultsatz prägte: "Bis zum Eni der Unenuigkeit und darosamodas hiniop.",
+        En: This ring once belonged to the renowned Bouze Lite Yeah, the saviour of the modern age. He never stopped going on about some place he used to drink called the Inn 'Finity and Beyond'.,
+        Es: Este anillo era del famoso Boz Layt Yer, héroe de los tiempos modernos. Su frase preferida trataba del Ninfi Tito y el más allá...,
+        Fr: Cet anneau provient du fameux Bouze le Clerc, sauveur des temps modernes. Sa phrase culte parlait d'un fin Eni et d'au-delà.,
+        Pt: Este anel pertenceu ao famoso Boz Laitíer, o salvador dos tempos modernos. Apesar de competente, vivia com a cabeça nas estrelas e às vezes custava a aceitar a realidade.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_5,
+      Img: https://api.beta.dofusdb.fr/img/items/9044.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 21,
+          To: 30,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 71,
+          To: 100,
+          ElementId: -1,
+          EffectId: 174,
+          Characteristic: 44,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 9044,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        134
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2419
+    },
+    {
+      TypeId: 11,
+      Name: {
+        De: Fressstiefel,
+        En: Gobboots,
+        Es: Jalabotas,
+        Fr: Boufbottes,
+        Pt: Papabotas
+      },
+      Slug: {
+        De: fressstiefel,
+        En: gobboots,
+        Es: jalabotas,
+        Fr: boufbottes,
+        Pt: papabotas
+      },
+      Description: {
+        De: Diese Stiefel sind bequem wie nichts anderes. Das Innere scheint aus einer Doppellage Fresssackwolle zu bestehen, doch kann man auch noch eine warme Flüssigkeit zwischen den Zehen rinnen fühlen. Ist das wohl eher Fresssackspeichel oder -blut? Egal.,
+        En: These are the most comfortable boots ever created. The inside seems to be padded with Gobball Wool and you can feel a liquid running through your toes. For all you know, it could be Gobball Saliva... even Blood. Whatever!,
+        Es: Estas botas no tienen rival a nivel de comodidad, parece que el interior está forrado con lana de jalató, aunque puedes sentir que un líquido circula entre los dedos de tus pies. ¿Será la baba o la sangre del jalató? Qué más da.,
+        Fr: Ces bottes sont d'un confort inégalé, l'intérieur a l'air d'être doublé en laine de Bouftou, mais on peut ressentir également comme un liquide circulant entre les orteils. Reste à savoir si c'est de la bave ou du sang de Bouftou. Peu importe.,
+        Pt: Estas são as botas mais confortáveis que já existiram. O interior parece ser acolchoado com lã de Papatudo e dá para sentir um líquido circulando entre os dedos do seu pé. Só resta saber se é Baba ou Sangue de Papatudo. Tanto faz.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_6,
+      Img: https://api.beta.dofusdb.fr/img/items/11026.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 16,
+          To: 20,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 11,
+          To: 15,
+          ElementId: 5,
+          EffectId: 138,
+          Characteristic: 25,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 11026,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        101
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2422
+    },
+    {
+      TypeId: 1,
+      Name: {
+        De: Amulett des Fresssacks,
+        En: Gobball Amulet,
+        Es: Amuleto de jalató,
+        Fr: Amulette du Bouftou,
+        Pt: Amuleto do Papatudo
+      },
+      Slug: {
+        De: amulett des fresssacks,
+        En: gobball amulet,
+        Es: amuleto de jalato,
+        Fr: amulette du bouftou,
+        Pt: amuleto do papatudo
+      },
+      Description: {
+        De: Das wohlgeformte Horn eines Fresssacks verleiht euch Ruhe und Weisheit. Analog dazu wird euch auch ein wohlgeformter Fresssackanhänger Ruhe und Weisheit verleihen. Oder das Gegenteil. Oder etwas ganz anderes. Oder aber vielleicht auch gar nichts.,
+        En: A fine piece of Gobball horn, this. The material is known for bringing peace and wisdom to these tranquil beasts, so a Gobball Amulet should bring peace and wisdom too. Although since you murdered the poor thing to get it, maybe the opposite will happen. Who knows.,
+        Es: Un buen cuerno de jalató, es un cuerno que procura calma y sabiduría. Un buen colgante de jalató te proporcionará por lo tanto sabiduría y calma. O el contrario. O bien otra cosa. O entonces nada.,
+        Fr: Une bonne Corne de Bouftou, c'est une Corne qui procure calme et sagesse. Un Bon pendentif de Bouftou vous procurera donc sagesse et calme. Ou l'inverse. Ou autre chose. Ou alors rien.,
+        Pt: Um bom chifre de Papatudo é um chifre que traz sabedoria e paz. Então, um bom pingente de Papatudo lhe trará paz e sabedoria. Ou o contrário. Ou outra coisa. Ou então nada.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_7,
+      Img: https://api.beta.dofusdb.fr/img/items/1048.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 11,
+          To: 15,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 11,
+          To: 15,
+          ElementId: 1,
+          EffectId: 118,
+          Characteristic: 10,
+          Category: 0
+        },
+        {
+          From: 11,
+          To: 15,
+          ElementId: 2,
+          EffectId: 126,
+          Characteristic: 15,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 1048,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        149
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2425
+    },
+    {
+      TypeId: 10,
+      Name: {
+        De: Gürtel des Fresssacks,
+        En: Gobball Belt,
+        Es: Cinturón de jalató,
+        Fr: Ceinture du Bouftou,
+        Pt: Cinto do Papatudo
+      },
+      Slug: {
+        De: gurtel des fresssacks,
+        En: gobball belt,
+        Es: cinturon de jalato,
+        Fr: ceinture du bouftou,
+        Pt: cinto do papatudo
+      },
+      Description: {
+        De: Dieser aus Wolle handgefertigte, praktische Gürtel ist sehr leicht für seine Größe. Außerdem sieht seine Wolle stets wie neu aus. Beides soll einer Legende nach daher kommen, dass Hunderte neugeborener weißer Fresssäckchen ihr Leben, ihr Blut und ihre Wolle für ihn lassen mußten.,
+        En: Easy to wear, this belt is quite light in relation to its size. The wool looks brand new... according to the legend, about a hundred Gobballs had to be cut to pieces to get this smooth and silky look.,
+        Es: Fácil de poner, este cinturón es muy ligero a pesar de su talla. Da la impresión de que la lana es nueva. Lógico ya que según la leyenda hizo falta descuartizar un centenar de jalatines para que tenga ese aspecto tan liso y sedoso.,
+        Fr: Rapide à équiper, cette ceinture s'avère tout de même assez légère pour sa taille. La laine donne l'impression d'être neuve. Normal, il a fallu selon la légende, dépecer une centaine de bouftons pour avoir cet aspect lisse et soyeux.,
+        Pt: Fácil de equipar, este cinto é bastante leve em relação ao seu tamanho. A lã parece ser nova. Isto é normal porque, de acordo com a lenda, foi necessário cortar cerca de cem Paparneiros para obter esse aspecto liso e sedoso.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_7,
+      Img: https://api.beta.dofusdb.fr/img/items/10029.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 11,
+          To: 15,
+          ElementId: 1,
+          EffectId: 118,
+          Characteristic: 10,
+          Category: 0
+        },
+        {
+          From: 11,
+          To: 15,
+          ElementId: 2,
+          EffectId: 126,
+          Characteristic: 15,
+          Category: 0
+        },
+        {
+          From: 401,
+          To: 500,
+          ElementId: -1,
+          EffectId: 158,
+          Characteristic: 40,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 10029,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        101
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.42452800273895264,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 2428
+    },
+    {
+      TypeId: 82,
+      Name: {
+        De: Schild des Fresssacks,
+        En: Gobball Shield,
+        Es: Escudo de jalató,
+        Fr: Bouclier du Bouftou,
+        Pt: Escudo do Papatudo
+      },
+      Slug: {
+        De: schild des fresssacks,
+        En: gobball shield,
+        Es: escudo de jalato,
+        Fr: bouclier du bouftou,
+        Pt: escudo do papatudo
+      },
+      Description: {
+        De: Dieser im Grunde ziemlich nutzlose Schild ist dennoch beeindruckend – auf Grund des Gestankes, den er permanent von sich gibt. Daher ist er auch der treue Begleiter vornehmlich junger Abenteurer.,
+        En: Although it's all but useless, its stench alone will spread your fame far and wide. This shield accompanies many young adventurers on their first quests – maybe that's why so few make it to thirty.,
+        Es: Bastante inútil pero impresionante por el olor que desprende. Este escudo será el compañero de muchos jóvenes aventureros.,
+        Fr: Assez inutile mais tout de même impressionnant grâce à l'odeur qu'il dégage, ce bouclier sera le compagnon de beaucoup de jeunes aventuriers.,
+        Pt: Este escudo inútil, embora impressionante devido ao fedor que exala, será o companheiro de muitos jovens aventureiros.
+      },
+      ImportantNotice: {},
+      Level: 20,
+      RealWeight: 10,
+      Price: 1,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_8,
+      Img: https://api.beta.dofusdb.fr/img/items/82020.png,
+      ItemSetId: 1,
+      HideEffects: false,
+      Effects: [
+        {
+          From: 16,
+          To: 20,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11,
+          Category: 0
+        },
+        {
+          From: 6,
+          To: 10,
+          ElementId: 5,
+          EffectId: 138,
+          Characteristic: 25,
+          Category: 0
+        }
+      ],
+      FavoriteSubAreasBonus: 0,
+      IconId: 82020,
+      AppearanceId: 0,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      DropMonsterIds: [
+        149
+      ],
+      DropSubAreaIds: [
+        5,
+        30,
+        179,
+        82
+      ],
+      RecyclingNuggets: 0.44999998807907104,
+      FavoriteRecyclingSubareas: [
+        278,
+        5,
+        30
+      ],
+      QuestsThatUse: [
+        1239
+      ],
+      StartLegendaryTreasureHunt: 0,
+      LegendaryTreasureHuntThatReward: 0,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: ,
+      Id: 18666
+    }
+  ],
+  TypeIds: [
+    16,
+    17,
+    7,
+    9,
+    11,
+    1,
+    10,
+    82
+  ],
+  BonusIsSecret: false,
+  Effects: [
+    [
+      {
+        From: 5,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 5,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 5,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 10,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 10,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 10,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 1,
+        To: 0,
+        ElementId: 0,
+        EffectId: 430,
+        Characteristic: 92,
+        Category: 0
+      },
+      {
+        From: 1,
+        To: 0,
+        ElementId: 1,
+        EffectId: 422,
+        Characteristic: 88,
+        Category: 0
+      },
+      {
+        From: 10,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 10,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 1,
+        To: 0,
+        ElementId: 2,
+        EffectId: 424,
+        Characteristic: 89,
+        Category: 0
+      },
+      {
+        From: 10,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 2,
+        To: 0,
+        ElementId: 0,
+        EffectId: 430,
+        Characteristic: 92,
+        Category: 0
+      },
+      {
+        From: 2,
+        To: 0,
+        ElementId: 1,
+        EffectId: 422,
+        Characteristic: 88,
+        Category: 0
+      },
+      {
+        From: 20,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 20,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 2,
+        To: 0,
+        ElementId: 2,
+        EffectId: 424,
+        Characteristic: 89,
+        Category: 0
+      },
+      {
+        From: 20,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 3,
+        To: 0,
+        ElementId: 0,
+        EffectId: 430,
+        Characteristic: 92,
+        Category: 0
+      },
+      {
+        From: 3,
+        To: 0,
+        ElementId: 1,
+        EffectId: 422,
+        Characteristic: 88,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 3,
+        To: 0,
+        ElementId: 2,
+        EffectId: 424,
+        Characteristic: 89,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 3,
+        To: 0,
+        ElementId: 0,
+        EffectId: 430,
+        Characteristic: 92,
+        Category: 0
+      },
+      {
+        From: 3,
+        To: 0,
+        ElementId: 1,
+        EffectId: 422,
+        Characteristic: 88,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 3,
+        To: 0,
+        ElementId: 2,
+        EffectId: 424,
+        Characteristic: 89,
+        Category: 0
+      },
+      {
+        From: 1,
+        To: 0,
+        ElementId: -1,
+        EffectId: 111,
+        Characteristic: 1,
+        Category: 0
+      },
+      {
+        From: 30,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ],
+    [
+      {
+        From: 5,
+        To: 0,
+        ElementId: 0,
+        EffectId: 430,
+        Characteristic: 92,
+        Category: 0
+      },
+      {
+        From: 5,
+        To: 0,
+        ElementId: 1,
+        EffectId: 422,
+        Characteristic: 88,
+        Category: 0
+      },
+      {
+        From: 50,
+        To: 0,
+        ElementId: 1,
+        EffectId: 118,
+        Characteristic: 10,
+        Category: 0
+      },
+      {
+        From: 50,
+        To: 0,
+        ElementId: 2,
+        EffectId: 126,
+        Characteristic: 15,
+        Category: 0
+      },
+      {
+        From: 5,
+        To: 0,
+        ElementId: 2,
+        EffectId: 424,
+        Characteristic: 89,
+        Category: 0
+      },
+      {
+        From: 1,
+        To: 0,
+        ElementId: -1,
+        EffectId: 111,
+        Characteristic: 1,
+        Category: 0
+      },
+      {
+        From: 50,
+        To: 0,
+        ElementId: -1,
+        EffectId: 125,
+        Characteristic: 11,
+        Category: 0
+      }
+    ]
+  ],
+  IsCosmetic: false,
+  CreatedAt: DateTimeOffset_9,
+  UpdatedAt: DateTimeOffset_10,
+  Id: 1
+}

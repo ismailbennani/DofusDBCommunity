@@ -1,0 +1,15 @@
+﻿{
+  Name: {
+    De: Amulett,
+    En: Amulet,
+    Es: Amuleto,
+    Fr: Amulette,
+    Pt: Amuleto
+  },
+  Positions: [
+    0
+  ],
+  CreatedAt: DateTimeOffset_1,
+  UpdatedAt: DateTimeOffset_2,
+  Id: 1
+}

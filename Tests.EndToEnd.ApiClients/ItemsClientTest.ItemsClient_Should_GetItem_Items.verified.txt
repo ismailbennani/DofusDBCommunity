@@ -1,0 +1,117 @@
+﻿{
+  TypeId: 1,
+  Type: {
+    Name: {
+      De: Amulett,
+      En: Amulet,
+      Es: Amuleto,
+      Fr: Amulette,
+      Pt: Amuleto
+    },
+    SuperTypeId: 1,
+    SuperType: {
+      Name: {
+        De: Amulett,
+        En: Amulet,
+        Es: Amuleto,
+        Fr: Amulette,
+        Pt: Amuleto
+      },
+      Positions: [
+        0
+      ],
+      CreatedAt: DateTimeOffset_1,
+      UpdatedAt: DateTimeOffset_2,
+      Id: 1
+    },
+    CategoryId: 0,
+    IsInEncyclopedia: true,
+    Plural: false,
+    Gender: Feminine,
+    RawZone: ,
+    Mimickable: true,
+    CraftXpRatio: -1,
+    CreatedAt: DateTimeOffset_3,
+    UpdatedAt: DateTimeOffset_4,
+    EvolutiveTypeId: 0,
+    Id: 1
+  },
+  Name: {
+    De: Eulenamulett,
+    En: Owl Amulet,
+    Es: Amuleto del búho,
+    Fr: Amulette du Hibou,
+    Pt: Amuleto da coruja
+  },
+  Slug: {
+    De: eulenamulett,
+    En: owl amulet,
+    Es: amuleto del buho,
+    Fr: amulette du hibou,
+    Pt: amuleto da coruja
+  },
+  Description: {
+    De: Dieses Amulett erhöht die Intelligenz seines Trägers.,
+    En: This amulet increases the wearer's Intelligence.,
+    Es: Este amuleto aumenta la inteligencia de su portador.,
+    Fr: Cette amulette augmente l'intelligence de son porteur.,
+    Pt: Este amuleto aumenta a inteligência do seu portador.
+  },
+  ImportantNotice: {},
+  Level: 8,
+  RealWeight: 1,
+  Price: 800,
+  Criteria: ,
+  CreatedAt: DateTimeOffset_5,
+  UpdatedAt: DateTimeOffset_6,
+  Img: https://api.beta.dofusdb.fr/img/items/1001.png,
+  ItemSetId: -1,
+  ItemSet: {
+    IsFalse: true
+  },
+  HideEffects: false,
+  Effects: [
+    {
+      From: 10,
+      To: 13,
+      ElementId: 2,
+      EffectId: 126,
+      Characteristic: 15,
+      Category: 0
+    }
+  ],
+  FavoriteSubAreasBonus: 0,
+  IconId: 1001,
+  AppearanceId: 0,
+  IsColorable: false,
+  HasLivingObjectSkinJntMood: false,
+  HasRecipe: true,
+  RecipeSlots: 2,
+  CraftXpRatio: -1.0,
+  CraftVisible: SC!5|ST!5,
+  CraftConditional: ,
+  CraftFeasible: SC!5|ST!5,
+  SecretRecipe: false,
+  BonusIsSecret: false,
+  Usable: false,
+  Targetable: false,
+  CriteriaTarget: ,
+  NonUsableOnAnother: false,
+  NeedUseConfirm: false,
+  UseAnimationId: -1,
+  RecyclingNuggets: 0.0,
+  StartLegendaryTreasureHunt: 0,
+  LegendaryTreasureHuntThatReward: 0,
+  Flags: 24712,
+  Cursed: false,
+  Exchangeable: true,
+  Etheral: false,
+  Enhanceable: true,
+  ObjectIsDisplayOnWeb: false,
+  IsDestructible: true,
+  IsSaleable: true,
+  IsLegendary: false,
+  Visibility: ,
+  ChangeVersion: ,
+  Id: 70
+}

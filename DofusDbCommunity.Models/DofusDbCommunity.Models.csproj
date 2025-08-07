@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <Title>DofusDB API Models</Title>
+        <Authors>Ismail Bennani</Authors>
+        <Description>Models for the resources available in the DofusDB API.</Description>
+    </PropertyGroup>
+    
+</Project>

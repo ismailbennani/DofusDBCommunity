@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DofusDbCommunity.Models", "DofusDbCommunity.Models\DofusDbCommunity.Models.csproj", "{4967408F-AB1C-4C94-8D56-2D770D972791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DofusDbCommunity.ApiClients", "DofusDbCommunity.ApiClients\DofusDbCommunity.ApiClients.csproj", "{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.EndToEnd.ApiClients", "Tests.EndToEnd.ApiClients\Tests.EndToEnd.ApiClients.csproj", "{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.UnitTests.ApiClients", "Tests.UnitTests.ApiClients\Tests.UnitTests.ApiClients.csproj", "{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

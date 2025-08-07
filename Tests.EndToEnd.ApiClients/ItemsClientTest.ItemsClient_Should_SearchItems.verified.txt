@@ -1,0 +1,1297 @@
+﻿{
+  Total: 21283,
+  Limit: 10,
+  Skip: 10,
+  Data: [
+    {
+      Id: 84,
+      TypeId: 1,
+      Type: {
+        Id: 1,
+        Name: {
+          De: Amulett,
+          En: Amulet,
+          Es: Amuleto,
+          Fr: Amulette,
+          Pt: Amuleto
+        },
+        SuperTypeId: 1,
+        SuperType: {
+          Id: 1,
+          Name: {
+            De: Amulett,
+            En: Amulet,
+            Es: Amuleto,
+            Fr: Amulette,
+            Pt: Amuleto
+          },
+          Positions: [
+            0
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_2
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        Gender: Feminine,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: WuWulf-Amulett,
+        En: Boowolf Amulet,
+        Es: Amuleto de milubo,
+        Fr: Amulette du Mulou,
+        Pt: Amuleto do Milobo
+      },
+      Slug: {
+        De: wuwulf-amulett,
+        En: boowolf amulet,
+        Es: amuleto de milubo,
+        Fr: amulette du mulou,
+        Pt: amuleto do milobo
+      },
+      Description: {
+        De: Dieses Amulett erhöht die Vitalität seines Trägers.,
+        En: This amulet increases the wearer's Vitality.,
+        Es: Este amuleto aumenta la vitalidad de su portador.,
+        Fr: Cette amulette augmente la vitalité de son porteur.,
+        Pt: Este amuleto aumenta a vitalidade do seu portador.
+      },
+      ImportantNotice: {},
+      Level: 8,
+      RealWeight: 1,
+      Price: 800,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_6,
+      Img: https://api.beta.dofusdb.fr/img/items/1006.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 16,
+          To: 20,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11
+        },
+        {
+          From: 3,
+          To: 4,
+          ElementId: -1,
+          EffectId: 178,
+          Characteristic: 49
+        }
+      ],
+      IconId: 1006,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 91,
+      TypeId: 2,
+      Type: {
+        Id: 2,
+        Name: {
+          De: Bogen,
+          En: Bow,
+          Es: Arco,
+          Fr: Arc,
+          Pt: Arco
+        },
+        SuperTypeId: 2,
+        SuperType: {
+          Id: 2,
+          Name: {
+            De: Waffe,
+            En: Weapon,
+            Es: Arma,
+            Fr: Arme,
+            Pt: Arma
+          },
+          Positions: [
+            1
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        RawZone: P,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Hölzerner Bogen,
+        En: Twiggy Bow,
+        Es: Arco de maderucha,
+        Fr: Arc de Boisaille,
+        Pt: Arco de graveto
+      },
+      Slug: {
+        De: holzerner bogen,
+        En: twiggy bow,
+        Es: arco de maderucha,
+        Fr: arc de boisaille,
+        Pt: arco de graveto
+      },
+      Description: {
+        De: Dieser Bogen einfachster Machart wird aus eurem Charakter bestimmt keinen Helden machen.,
+        En: This basic bow won't make a hero out of you, that's for sure.,
+        Es: Arco de sencilla factura, no convertirá a tu héroe en leyenda.,
+        Fr: Arc de simple facture, il ne fera pas de votre héros une légende.,
+        Pt: Este arco simples não o transformará em um herói lendário.
+      },
+      ImportantNotice: {},
+      Level: 7,
+      RealWeight: 1,
+      Price: 700,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_6,
+      Img: https://api.beta.dofusdb.fr/img/items/2001.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 8,
+          To: 10,
+          ElementId: 4,
+          EffectId: 98,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 16,
+          To: 20,
+          ElementId: -1,
+          EffectId: 125,
+          Characteristic: 11
+        },
+        {
+          From: 2,
+          ElementId: -1,
+          EffectId: 753,
+          Characteristic: 79
+        }
+      ],
+      IconId: 2001,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: 10,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 97,
+      TypeId: 5,
+      Type: {
+        Id: 5,
+        Name: {
+          De: Dolch,
+          En: Dagger,
+          Es: Daga,
+          Fr: Dague,
+          Pt: Adaga
+        },
+        SuperTypeId: 2,
+        SuperType: {
+          Id: 2,
+          Name: {
+            De: Waffe,
+            En: Weapon,
+            Es: Arma,
+            Fr: Arme,
+            Pt: Arma
+          },
+          Positions: [
+            1
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: true,
+        Gender: Feminine,
+        RawZone: P,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Hölzerne Dolche,
+        En: Twiggy Daggers,
+        Es: Dagas de maderucha,
+        Fr: Dagues de Boisaille,
+        Pt: Adagas de graveto
+      },
+      Slug: {
+        De: holzerne dolche,
+        En: twiggy daggers,
+        Es: dagas de maderucha,
+        Fr: dagues de boisaille,
+        Pt: adagas de graveto
+      },
+      Description: {
+        De: Diese Dolche einfachster Machart werden aus eurem Charakter bestimmt keinen Helden machen.,
+        En: This basic pair of daggers won't make a hero out of you, that's for sure.,
+        Es: Dagas de sencilla factura, no convertirán a tu héroe en leyenda.,
+        Fr: Dagues de simple facture, elles ne feront pas de votre héros une légende.,
+        Pt: Estas adagas simples não o transformarão em um herói lendário.
+      },
+      ImportantNotice: {},
+      Level: 7,
+      RealWeight: 1,
+      Price: 700,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_8,
+      Img: https://api.beta.dofusdb.fr/img/items/5010.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 3,
+          To: 4,
+          EffectId: 100,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 7,
+          To: 10,
+          ElementId: 4,
+          EffectId: 119,
+          Characteristic: 14
+        },
+        {
+          From: 1,
+          ElementId: 4,
+          EffectId: 428,
+          Characteristic: 91
+        }
+      ],
+      IconId: 5010,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: 13,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 103,
+      TypeId: 9,
+      Type: {
+        Id: 9,
+        Name: {
+          De: Ring,
+          En: Ring,
+          Es: Anillo,
+          Fr: Anneau,
+          Pt: Anel
+        },
+        SuperTypeId: 3,
+        SuperType: {
+          Id: 3,
+          Name: {
+            De: Ring,
+            En: Ring,
+            Es: Anillo,
+            Fr: Anneau,
+            Pt: Anel
+          },
+          Positions: [
+            2,
+            4
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Ring der Weisheit,
+        En: Wisdom Ring,
+        Es: Anillo de sabiduría,
+        Fr: Anneau de Sagesse,
+        Pt: Anel de sabedoria
+      },
+      Slug: {
+        De: ring der weisheit,
+        En: wisdom ring,
+        Es: anillo de sabiduria,
+        Fr: anneau de sagesse,
+        Pt: anel de sabedoria
+      },
+      Description: {
+        De: Dieser Ring erhöht die Weisheit seines Trägers.,
+        En: This ring increases the wearer's Wisdom.,
+        Es: Este anillo refuerza la sabiduría de su portador.,
+        Fr: Cet anneau renforce la sagesse de son porteur.,
+        Pt: Este anel reforça a sabedoria do seu portador.
+      },
+      ImportantNotice: {},
+      Level: 9,
+      RealWeight: 1,
+      Price: 900,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_8,
+      Img: https://api.beta.dofusdb.fr/img/items/9007.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 7,
+          To: 10,
+          ElementId: -1,
+          EffectId: 124,
+          Characteristic: 12
+        }
+      ],
+      IconId: 9007,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 112,
+      TypeId: 9,
+      Type: {
+        Id: 9,
+        Name: {
+          De: Ring,
+          En: Ring,
+          Es: Anillo,
+          Fr: Anneau,
+          Pt: Anel
+        },
+        SuperTypeId: 3,
+        SuperType: {
+          Id: 3,
+          Name: {
+            De: Ring,
+            En: Ring,
+            Es: Anillo,
+            Fr: Anneau,
+            Pt: Anel
+          },
+          Positions: [
+            2,
+            4
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Glücksring,
+        En: Chance Ring,
+        Es: Anillo de suerte,
+        Fr: Anneau de Chance,
+        Pt: Anel de sorte
+      },
+      Slug: {
+        De: glucksring,
+        En: chance ring,
+        Es: anillo de suerte,
+        Fr: anneau de chance,
+        Pt: anel de sorte
+      },
+      Description: {
+        De: Dieser Ring erhöht das Glück seines Trägers.,
+        En: This ring increases the wearer's Chance.,
+        Es: Este anillo refuerza la suerte de su portador.,
+        Fr: Cet anneau renforce la chance de son porteur.,
+        Pt: Este anel reforça a sorte do seu portador.
+      },
+      ImportantNotice: {},
+      Level: 9,
+      RealWeight: 1,
+      Price: 900,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_9,
+      Img: https://api.beta.dofusdb.fr/img/items/9009.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 7,
+          To: 10,
+          ElementId: 3,
+          EffectId: 123,
+          Characteristic: 13
+        }
+      ],
+      IconId: 9009,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 121,
+      TypeId: 9,
+      Type: {
+        Id: 9,
+        Name: {
+          De: Ring,
+          En: Ring,
+          Es: Anillo,
+          Fr: Anneau,
+          Pt: Anel
+        },
+        SuperTypeId: 3,
+        SuperType: {
+          Id: 3,
+          Name: {
+            De: Ring,
+            En: Ring,
+            Es: Anillo,
+            Fr: Anneau,
+            Pt: Anel
+          },
+          Positions: [
+            2,
+            4
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Ring der Flinkheit,
+        En: Agility Ring,
+        Es: Anillo de agilidad,
+        Fr: Anneau d'Agilité,
+        Pt: Anel de agilidade
+      },
+      Slug: {
+        De: ring der flinkheit,
+        En: agility ring,
+        Es: anillo de agilidad,
+        Fr: anneau d'agilite,
+        Pt: anel de agilidade
+      },
+      Description: {
+        De: Dieser Ring erhöht die Flinkheit seines Trägers.,
+        En: This ring increases the wearer's Agility.,
+        Es: Este anillo aumenta la agilidad de su portador.,
+        Fr: Cet anneau augmente l'agilité de son porteur.,
+        Pt: Este anel aumenta a agilidade do seu portador.
+      },
+      ImportantNotice: {},
+      Level: 9,
+      RealWeight: 1,
+      Price: 900,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_9,
+      Img: https://api.beta.dofusdb.fr/img/items/9001.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 7,
+          To: 10,
+          ElementId: 4,
+          EffectId: 119,
+          Characteristic: 14
+        }
+      ],
+      IconId: 9001,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      QuestsThatUse: [
+        75
+      ],
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 127,
+      TypeId: 11,
+      Type: {
+        Id: 11,
+        Name: {
+          De: Stiefel,
+          En: Boots,
+          Es: Bota,
+          Fr: Bottes,
+          Pt: Botas
+        },
+        SuperTypeId: 5,
+        SuperType: {
+          Id: 5,
+          Name: {
+            De: Stiefel,
+            En: Boots,
+            Es: Botas,
+            Fr: Bottes,
+            Pt: Botas
+          },
+          Positions: [
+            5
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: true,
+        Gender: Feminine,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_10
+      },
+      Name: {
+        De: Bowissen-Stiefel,
+        En: Bowisse's Boots,
+        Es: Botas de Bowis,
+        Fr: Bottes de Bowisse,
+        Pt: Botas de Bowis
+      },
+      Slug: {
+        De: bowissen-stiefel,
+        En: bowisse's boots,
+        Es: botas de bowis,
+        Fr: bottes de bowisse,
+        Pt: botas de bowis
+      },
+      Description: {
+        De: Diese außergewöhnlichen Stiefel erhöhen eure Bewegungsrate im Kampf. Doch hütet euch vor dem furchtbaren Gestank, den sie absondern. Sie haben nämlich einst dem berüchtigten Bowissen gehört.,
+        En: These exceptional boots will grant you an extra Movement Point in combat. However, the smell of Bowisse's feet will quickly stop you in your tracks again if you accidentally bring them too close to your nose.,
+        Es:
+Estas Botas excepcionales te permitirán ganar un punto de movimiento durante los combates. 
+Pero ten cuidado con el olor que desprenden porque pertenecieron al desgraciadamente famoso Bowis.,
+        Fr:
+Ces bottes exceptionnelles vous permettront de gagner un point de mouvement durant les combats.
+Attention cependant aux odeurs qu'elles dégagent, car elles ont appartenu au tristement célèbre Bowisse.,
+        Pt: Com estas botas excepcionais, você ganhará um ponto de movimento durante as lutas. Mas tenha cuidado para não inalar o cheiro que exalam, porque elas pertenceram ao notório Bowis.
+      },
+      ImportantNotice: {},
+      Level: 50,
+      RealWeight: 10,
+      Price: 5000,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_9,
+      Img: https://api.beta.dofusdb.fr/img/items/11002.png,
+      ItemSetId: 868,
+      ItemSet: {
+        Value: {
+          Id: 868,
+          Name: {
+            De: Bowisse-Set,
+            En: Bowisse Set,
+            Es: Set de Bowis,
+            Fr: Panoplie de Bowisse,
+            Pt: Conjunto de Bowis
+          },
+          Slug: {
+            De: bowisse-set,
+            En: bowisse set,
+            Es: set de bowis,
+            Fr: panoplie de bowisse,
+            Pt: conjunto de bowis
+          },
+          Level: 50,
+          Items: [
+            127,
+            744,
+            18665
+          ],
+          TypeIds: [
+            11,
+            17,
+            82
+          ],
+          BonusIsSecret: false,
+          Effects: [
+            [
+              {
+                From: 15,
+                ElementId: -1,
+                EffectId: 125,
+                Characteristic: 11
+              },
+              {
+                From: 15,
+                ElementId: 3,
+                EffectId: 123,
+                Characteristic: 13
+              },
+              {
+                From: 10,
+                ElementId: -1,
+                EffectId: 176,
+                Characteristic: 48
+              },
+              {
+                From: 5,
+                ElementId: -1,
+                EffectId: 752,
+                Characteristic: 78
+              }
+            ],
+            [
+              {
+                From: 30,
+                ElementId: -1,
+                EffectId: 125,
+                Characteristic: 11
+              },
+              {
+                From: 30,
+                ElementId: 3,
+                EffectId: 123,
+                Characteristic: 13
+              },
+              {
+                From: 20,
+                ElementId: -1,
+                EffectId: 176,
+                Characteristic: 48
+              },
+              {
+                From: 10,
+                ElementId: -1,
+                EffectId: 752,
+                Characteristic: 78
+              }
+            ]
+          ],
+          IsCosmetic: false,
+          CreatedAt: DateTimeOffset_11,
+          UpdatedAt: DateTimeOffset_12
+        },
+        IsFalse: false
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 16,
+          To: 20,
+          ElementId: 3,
+          EffectId: 123,
+          Characteristic: 13
+        },
+        {
+          From: 1,
+          ElementId: -1,
+          EffectId: 128,
+          Characteristic: 23
+        },
+        {
+          From: 2,
+          To: 3,
+          ElementId: -1,
+          EffectId: 176,
+          Characteristic: 48
+        },
+        {
+          From: -10,
+          ElementId: -1,
+          EffectId: 754,
+          Characteristic: 78
+        }
+      ],
+      IconId: 11002,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 4,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 2.56,
+      TooltipExpirationDate: 1625090400000
+    },
+    {
+      Id: 130,
+      TypeId: 11,
+      Type: {
+        Id: 11,
+        Name: {
+          De: Stiefel,
+          En: Boots,
+          Es: Bota,
+          Fr: Bottes,
+          Pt: Botas
+        },
+        SuperTypeId: 5,
+        SuperType: {
+          Id: 5,
+          Name: {
+            De: Stiefel,
+            En: Boots,
+            Es: Botas,
+            Fr: Bottes,
+            Pt: Botas
+          },
+          Positions: [
+            5
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: true,
+        Gender: Feminine,
+        RawZone: ,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_10
+      },
+      Name: {
+        De: Iops Zermalmer,
+        En: Iop's Crushers,
+        Es: Espachurrador de Yopuka,
+        Fr: L'Ecrabouilleur de Iop,
+        Pt: Esmagador Iop
+      },
+      Slug: {
+        De: iops zermalmer,
+        En: iop's crushers,
+        Es: espachurrador de yopuka,
+        Fr: l'ecrabouilleur de iop,
+        Pt: esmagador iop
+      },
+      Description: {
+        De: Diese Stiefel sind einfach ideal, wenn es mal wieder darum geht, einem Gegner den Gnadenstoß zu verpassen.,
+        En: These boots are perfect for that special coup de grace.,
+        Es: Estas botas son ideales cuando se trata de rematar a un adversario.,
+        Fr: Ces bottes sont idéales lorsqu'il s'agit d'asséner un coup de grâce.,
+        Pt: Estas botas são perfeitas para dar um toque de graça.
+      },
+      ImportantNotice: {},
+      Level: 27,
+      RealWeight: 10,
+      Price: 2700,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_13,
+      Img: https://api.beta.dofusdb.fr/img/items/11007.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 21,
+          To: 25,
+          ElementId: 1,
+          EffectId: 118,
+          Characteristic: 10
+        },
+        {
+          From: -10,
+          ElementId: 2,
+          EffectId: 155,
+          Characteristic: 15
+        },
+        {
+          From: -10,
+          ElementId: 3,
+          EffectId: 152,
+          Characteristic: 13
+        },
+        {
+          From: 21,
+          To: 25,
+          ElementId: 4,
+          EffectId: 119,
+          Characteristic: 14
+        },
+        {
+          From: 2,
+          ElementId: 1,
+          EffectId: 422,
+          Characteristic: 88
+        },
+        {
+          From: 2,
+          ElementId: 4,
+          EffectId: 428,
+          Characteristic: 91
+        }
+      ],
+      IconId: 11007,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 3,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: -1,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 134,
+      TypeId: 3,
+      Type: {
+        Id: 3,
+        Name: {
+          De: Stab,
+          En: Wand,
+          Es: Varita,
+          Fr: Baguette,
+          Pt: Varinha
+        },
+        SuperTypeId: 2,
+        SuperType: {
+          Id: 2,
+          Name: {
+            De: Waffe,
+            En: Weapon,
+            Es: Arma,
+            Fr: Arme,
+            Pt: Arma
+          },
+          Positions: [
+            1
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        Gender: Feminine,
+        RawZone: P,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Hölzernes Stäbchen,
+        En: Twiggy Wand,
+        Es: Varita de maderucha,
+        Fr: Baguette de Boisaille,
+        Pt: Varinha de graveto
+      },
+      Slug: {
+        De: holzernes stabchen,
+        En: twiggy wand,
+        Es: varita de maderucha,
+        Fr: baguette de boisaille,
+        Pt: varinha de graveto
+      },
+      Description: {
+        De: Dieser Stab einfachster Machart wird aus eurem Charakter bestimmt keinen Helden machen.,
+        En: This basic wand won't make a hero out of you, that's for sure.,
+        Es: Varita de sencilla factura, no convertirá a tu héroe en leyenda.,
+        Fr: Baguette de simple facture, elle ne fera pas de votre héros une légende.,
+        Pt: Uma varinha simples que não transformará seu herói em uma lenda.
+      },
+      ImportantNotice: {},
+      Level: 3,
+      RealWeight: 1,
+      Price: 300,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_14,
+      Img: https://api.beta.dofusdb.fr/img/items/3008.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 4,
+          To: 8,
+          ElementId: 2,
+          EffectId: 99,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 3,
+          To: 5,
+          ElementId: 2,
+          EffectId: 126,
+          Characteristic: 15
+        }
+      ],
+      IconId: 3008,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: 11,
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    },
+    {
+      Id: 140,
+      TypeId: 4,
+      Type: {
+        Id: 4,
+        Name: {
+          De: Stecken,
+          En: Staff,
+          Es: Bastón,
+          Fr: Bâton,
+          Pt: Bastão
+        },
+        SuperTypeId: 2,
+        SuperType: {
+          Id: 2,
+          Name: {
+            De: Waffe,
+            En: Weapon,
+            Es: Arma,
+            Fr: Arme,
+            Pt: Arma
+          },
+          Positions: [
+            1
+          ],
+          CreatedAt: DateTimeOffset_1,
+          UpdatedAt: DateTimeOffset_7
+        },
+        IsInEncyclopedia: true,
+        Plural: false,
+        RawZone: T1,10,1,
+        Mimickable: true,
+        CraftXpRatio: -1,
+        CreatedAt: DateTimeOffset_3,
+        UpdatedAt: DateTimeOffset_4
+      },
+      Name: {
+        De: Hölzerner Stecken,
+        En: Twiggy Staff,
+        Es: Bastón de maderucha,
+        Fr: Bâton de Boisaille,
+        Pt: Bastão de graveto
+      },
+      Slug: {
+        De: holzerner stecken,
+        En: twiggy staff,
+        Es: baston de maderucha,
+        Fr: baton de boisaille,
+        Pt: bastao de graveto
+      },
+      Description: {
+        De: Dieser Stock einfachster Machart wird aus eurem Charakter bestimmt keinen Helden machen.,
+        En: This basic staff won't make a hero out of you, that's for sure.,
+        Es: Bastón de sencilla factura, no convertirá a tu héroe en leyenda.,
+        Fr: Bâton de simple facture, il ne fera pas de votre héros une légende.,
+        Pt: Este bastão simples não o transformará em um herói lendário.
+      },
+      ImportantNotice: {},
+      Level: 9,
+      RealWeight: 1,
+      Price: 900,
+      Criteria: ,
+      CreatedAt: DateTimeOffset_5,
+      UpdatedAt: DateTimeOffset_14,
+      Img: https://api.beta.dofusdb.fr/img/items/4001.png,
+      ItemSetId: -1,
+      ItemSet: {
+        IsFalse: true
+      },
+      HideEffects: false,
+      Effects: [
+        {
+          From: 7,
+          To: 11,
+          EffectId: 100,
+          Characteristic: -1,
+          Category: 2
+        },
+        {
+          From: 7,
+          To: 10,
+          ElementId: 1,
+          EffectId: 118,
+          Characteristic: 10
+        },
+        {
+          From: 1,
+          ElementId: 1,
+          EffectId: 422,
+          Characteristic: 88
+        }
+      ],
+      IconId: 4001,
+      IsColorable: false,
+      HasLivingObjectSkinJntMood: false,
+      HasRecipe: true,
+      RecipeSlots: 2,
+      CraftXpRatio: -1.0,
+      CraftVisible: SC!5|ST!5,
+      CraftConditional: ,
+      CraftFeasible: SC!5|ST!5,
+      SecretRecipe: false,
+      BonusIsSecret: false,
+      Usable: false,
+      Targetable: false,
+      CriteriaTarget: ,
+      NonUsableOnAnother: false,
+      NeedUseConfirm: false,
+      UseAnimationId: 12,
+      QuestsThatUse: [
+        65
+      ],
+      Flags: 24712,
+      Cursed: false,
+      Exchangeable: true,
+      Etheral: false,
+      Enhanceable: true,
+      ObjectIsDisplayOnWeb: false,
+      IsDestructible: true,
+      IsSaleable: true,
+      IsLegendary: false,
+      Visibility: ,
+      ChangeVersion: 
+    }
+  ]
+}

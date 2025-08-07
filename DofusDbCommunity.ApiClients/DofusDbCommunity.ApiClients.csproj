@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <Title>DofusDB API Clients</Title>
+      <Authors>Ismail Bennani</Authors>
+      <Description>API clients for the DofusDB API.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DofusDbCommunity.Models\DofusDbCommunity.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Tests.UnitTests.ApiClients" />
+    </ItemGroup>
+</Project>
