@@ -1,0 +1,47 @@
+name: Continuous Deployment - Publish Libraries
+
+on:
+  push:
+    tags:
+      - v*
+  workflow_dispatch:
+
+jobs:
+  build-publish:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      actions: write
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install .NET 8.0 (for dotnet-releaser)
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install .NET 10.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Install dotnet-releaser
+        shell: bash
+        run: dotnet tool install --global dotnet-releaser --version 0.11.0
+
+      - name: Build, Tests, Cover, Pack and Publish
+        shell: bash
+        run: dotnet-releaser run --nuget-token "${{ secrets.NUGET_TOKEN }}" --github-token "${{ secrets.GITHUB_TOKEN }}" dotnet-releaser.toml
+
+      - name: Upload binaries as artifact
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: binaries
+          path: src/artifacts-dotnet-releaser
+          if-no-files-found: 'error'

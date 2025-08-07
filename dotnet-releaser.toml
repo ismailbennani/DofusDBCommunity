@@ -4,3 +4,8 @@ project = "DofusDbCommunity.sln"
 [github]
 user = "ismailbennani"
 repo = "DofusDBCommunity"
+version_prefix = "v"
+[brew]
+publish = false
+[service]
+publish = false
