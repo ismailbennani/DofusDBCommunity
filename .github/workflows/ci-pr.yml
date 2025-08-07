@@ -19,6 +19,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install .NET 9.0 (for dotnet-releaser)
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
       - name: Install .NET 10.0
         uses: actions/setup-dotnet@v3
         with:
