@@ -1,7 +1,6 @@
 name: Continuous Integration - PR Build & Test
 
 on:
-  push:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
