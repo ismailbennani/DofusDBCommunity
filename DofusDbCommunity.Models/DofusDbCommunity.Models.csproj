@@ -4,6 +4,14 @@
         <Title>DofusDB API Models</Title>
         <Authors>Ismail Bennani</Authors>
         <Description>Models for the resources available in the DofusDB API.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="MinVer" Version="6.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
     
 </Project>

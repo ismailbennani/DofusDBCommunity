@@ -1,16 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-      <Title>DofusDB API Clients</Title>
-      <Authors>Ismail Bennani</Authors>
-      <Description>API clients for the DofusDB API.</Description>
+        <Title>DofusDB API Clients</Title>
+        <Authors>Ismail Bennani</Authors>
+        <Description>API clients for the DofusDB API.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DofusDbCommunity.Models\DofusDbCommunity.Models.csproj" />
+        <ProjectReference Include="..\DofusDbCommunity.Models\DofusDbCommunity.Models.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="Tests.UnitTests.ApiClients" />
+        <InternalsVisibleTo Include="Tests.UnitTests.ApiClients"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MinVer" Version="6.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 </Project>
