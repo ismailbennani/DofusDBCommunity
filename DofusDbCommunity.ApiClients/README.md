@@ -26,6 +26,11 @@ DofusDbQuery<Item> query = DofusDbQuery.Production().Items()
 Item[] items = await query.ExecuteAsync().ToArrayAsync();
 ```
 
+> ![Note] **Known issue**
+> All model fields are nullable because the API supports a `select` operator for partial field selection. 
+> As a result, enabling nullable analysis may cause compiler warnings about possible null references in expression subtrees. 
+> However, these warnings are safe to ignore in this context, since the expressions are only used to determine property names for request parameters and will not cause null reference exceptions at runtime.
+
 ### Low-level client
 
 The low-level client grants direct access to the request parameters exposed by `FeatherJS`.
