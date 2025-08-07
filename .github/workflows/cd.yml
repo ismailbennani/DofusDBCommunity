@@ -1,4 +1,4 @@
-name: .NET - Build and Publish
+name: Continuous Deployment - Build and Publish
 
 on:
   push:
