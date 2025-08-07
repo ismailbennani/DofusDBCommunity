@@ -34,7 +34,7 @@ jobs:
 
       - name: Build, Tests, Cover, Pack and Publish
         shell: bash
-        run: dotnet-releaser run --nuget-token "${{ secrets.NUGET_KEY }}" --github-token "${{ secrets.GITHUB_TOKEN }}" dotnet-releaser.toml
+        run: dotnet-releaser run --nuget-token "${{ secrets.NUGET_TOKEN }}" --github-token "${{ secrets.GITHUB_TOKEN }}" dotnet-releaser.toml
 
       - name: Upload binaries as artifact
         if: ${{ github.event_name == 'workflow_dispatch' }}
