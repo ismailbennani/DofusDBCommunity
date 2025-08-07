@@ -33,7 +33,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Limit = 123 });
+        query.Limit.Should().Be(123);
     }
 
     [Fact]
@@ -44,7 +44,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Skip = 123 });
+        query.Skip.Should().Be(123);
     }
 
     [Fact]
@@ -55,7 +55,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Sort = new Dictionary<string, SearchQuerySortOrder> { { "appearanceId", SearchQuerySortOrder.Ascending } } });
+        query.Sort.Should().BeEquivalentTo(new Dictionary<string, SearchQuerySortOrder> { { "appearanceId", SearchQuerySortOrder.Ascending } });
     }
 
     [Fact]
@@ -66,7 +66,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Sort = new Dictionary<string, SearchQuerySortOrder> { { "appearanceId", SearchQuerySortOrder.Descending } } });
+        query.Sort.Should().BeEquivalentTo(new Dictionary<string, SearchQuerySortOrder> { { "appearanceId", SearchQuerySortOrder.Descending } });
     }
 
     [Fact]
@@ -77,7 +77,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Sort = new Dictionary<string, SearchQuerySortOrder> { { "name.fr", SearchQuerySortOrder.Descending } } });
+        query.Sort.Should().BeEquivalentTo(new Dictionary<string, SearchQuerySortOrder> { { "name.fr", SearchQuerySortOrder.Descending } });
     }
 
     [Fact]
@@ -88,13 +88,8 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(
-                new SearchQuery
-                {
-                    Sort = new Dictionary<string, SearchQuerySortOrder> { { "name", SearchQuerySortOrder.Ascending }, { "appearanceId", SearchQuerySortOrder.Descending } }
-                }
-            );
+        query.Sort.Should()
+            .BeEquivalentTo(new Dictionary<string, SearchQuerySortOrder> { { "name", SearchQuerySortOrder.Ascending }, { "appearanceId", SearchQuerySortOrder.Descending } });
     }
 
     [Fact]
@@ -105,7 +100,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Select = ["appearanceId"] });
+        query.Select.Should().BeEquivalentTo("appearanceId");
     }
 
     [Fact]
@@ -116,7 +111,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Select = ["name.fr"] });
+        query.Select.Should().BeEquivalentTo("name.fr");
     }
 
     [Fact]
@@ -127,7 +122,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.Eq("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.Eq("appearanceId", "1")]);
     }
 
     [Fact]
@@ -138,7 +133,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.NotEq("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.NotEq("appearanceId", "1")]);
     }
 
     [Fact]
@@ -150,7 +145,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.In("appearanceId", "1", "2")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.In("appearanceId", "1", "2")]);
     }
 
     [Fact]
@@ -162,7 +157,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.NotIn("appearanceId", "1", "2")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.NotIn("appearanceId", "1", "2")]);
     }
 
     [Fact]
@@ -173,7 +168,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.GreaterThan("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.GreaterThan("appearanceId", "1")]);
     }
 
     [Fact]
@@ -184,7 +179,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.GreaterThanOrEqual("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.GreaterThanOrEqual("appearanceId", "1")]);
     }
 
     [Fact]
@@ -195,7 +190,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.LessThan("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.LessThan("appearanceId", "1")]);
     }
 
     [Fact]
@@ -206,7 +201,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.LessThanOrEquals("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.LessThanOrEquals("appearanceId", "1")]);
     }
 
     [Fact]
@@ -217,10 +212,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(
-                new SearchQuery { Predicates = [new SearchPredicate.And(new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.NotEq("appearanceId", "2"))] }
-            );
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.And(new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.NotEq("appearanceId", "2"))]);
     }
 
     [Fact]
@@ -231,8 +223,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.Or(new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.NotEq("appearanceId", "2"))] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.Or(new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.NotEq("appearanceId", "2"))]);
     }
 
     [Fact]
@@ -243,7 +234,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.NotEq("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.NotEq("appearanceId", "1")]);
     }
 
     [Fact]
@@ -254,7 +245,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.Eq("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.Eq("appearanceId", "1")]);
     }
 
     [Fact]
@@ -266,7 +257,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.NotIn("appearanceId", "1", "2")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.NotIn("appearanceId", "1", "2")]);
     }
 
     [Fact]
@@ -278,7 +269,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.In("appearanceId", "1", "2")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.In("appearanceId", "1", "2")]);
     }
 
     [Fact]
@@ -289,7 +280,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.LessThanOrEquals("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.LessThanOrEquals("appearanceId", "1")]);
     }
 
     [Fact]
@@ -300,7 +291,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.LessThan("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.LessThan("appearanceId", "1")]);
     }
 
     [Fact]
@@ -311,7 +302,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.GreaterThanOrEqual("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.GreaterThanOrEqual("appearanceId", "1")]);
     }
 
     [Fact]
@@ -322,7 +313,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.GreaterThan("appearanceId", "1")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.GreaterThan("appearanceId", "1")]);
     }
 
     [Fact]
@@ -333,8 +324,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.Or(new SearchPredicate.NotEq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2"))] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.Or(new SearchPredicate.NotEq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2"))]);
     }
 
     [Fact]
@@ -345,10 +335,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(
-                new SearchQuery { Predicates = [new SearchPredicate.And(new SearchPredicate.NotEq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2"))] }
-            );
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.And(new SearchPredicate.NotEq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2"))]);
     }
 
     [Fact]
@@ -359,7 +346,7 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should().BeEquivalentTo(new SearchQuery { Predicates = [new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2")] });
+        query.Predicates.Should().BeEquivalentTo([new SearchPredicate.Eq("appearanceId", "1"), new SearchPredicate.Eq("appearanceId", "2")]);
     }
 
     [Fact]
@@ -377,23 +364,20 @@ public class DofusDbQueryTest
         _clientMock.Verify(c => c.SearchAsync(It.IsAny<SearchQuery>(), It.IsAny<CancellationToken>()));
 
         SearchQuery query = (SearchQuery)_clientMock.Invocations.Single().Arguments[0];
-        query.Should()
-            .BeEquivalentTo(
-                new SearchQuery
-                {
-                    Predicates =
-                    [
-                        new SearchPredicate.Or(
-                            new SearchPredicate.In("appearanceId", "1", "2"),
-                            new SearchPredicate.And(
-                                new SearchPredicate.Eq("bonusIsSecret", "true"),
-                                new SearchPredicate.GreaterThan("level", "50"),
-                                new SearchPredicate.NotIn("name.fr", "value1", "value2")
-                            )
-                        ),
-                        new SearchPredicate.In("criteria", "value3", "value4")
-                    ]
-                }
+        query.Predicates.Should()
+            .BeEquivalentTo<SearchPredicate>(
+                [
+                    new SearchPredicate.Or(
+                        new SearchPredicate.In("appearanceId", "1", "2"),
+                        new SearchPredicate.And(
+                            new SearchPredicate.Eq("bonusIsSecret", "true"),
+                            new SearchPredicate.GreaterThan("level", "50"),
+                            new SearchPredicate.NotIn("name.fr", "value1", "value2")
+                        )
+                    ),
+                    new SearchPredicate.In("criteria", "value3", "value4")
+                ],
+                opt => opt.RespectingRuntimeTypes()
             );
     }
 }

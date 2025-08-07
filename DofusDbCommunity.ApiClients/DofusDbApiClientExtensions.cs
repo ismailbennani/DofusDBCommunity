@@ -22,8 +22,8 @@ public static class DofusDbApiClientExtensions
         [EnumeratorCancellation] CancellationToken cancellationToken = default
     ) where TResource: DofusDbEntity
     {
-        int? requested = query.Limit;
-        int? offset = query.Skip;
+        int requested = query.Limit ?? int.MaxValue;
+        int offset = query.Skip ?? 0;
 
         SearchQuery firstQuery = new() { Limit = requested, Skip = offset, Sort = query.Sort, Select = query.Select, Predicates = query.Predicates };
         SearchResult<TResource> firstResults = await SearchImplAsync(client, firstQuery, cancellationToken);
