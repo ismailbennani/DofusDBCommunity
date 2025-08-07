@@ -18,10 +18,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install .NET 9.0 (for dotnet-releaser)
+      - name: Install .NET 8.0 (for dotnet-releaser)
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x'
+          dotnet-version: '8.0.x'
 
       - name: Install .NET 10.0
         uses: actions/setup-dotnet@v4
@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dotnet-releaser
         shell: bash
-        run: dotnet tool install --global dotnet-releaser
+        run: dotnet tool install --global dotnet-releaser --version 0.11.0
 
       - name: Build, Tests, Cover, Pack and Publish
         shell: bash
