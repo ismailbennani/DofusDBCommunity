@@ -2,6 +2,8 @@ name: Continuous Deployment - Publish Libraries
 
 on:
   push:
+    tags:
+      - v*
   workflow_dispatch:
 
 jobs:
