@@ -1,19 +1,22 @@
-name: Continuous Deployment - Build and Publish
+name: Continuous Deployment - Publish Libraries
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
-  build:
-
+  build-publish:
     runs-on: ubuntu-latest
+    
+    permissions:
+      actions: write
+      contents: write
     
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          filter: tree:0
 
       - name: Install .NET 9.0 (for dotnet-releaser)
         uses: actions/setup-dotnet@v4
@@ -31,7 +34,12 @@ jobs:
 
       - name: Build, Tests, Cover, Pack and Publish
         shell: bash
-        run: dotnet-releaser run --nuget-token "${{secrets.NUGET_TOKEN}}" --github-token "${{secrets.GITHUB_TOKEN}}" dotnet-releaser.toml
+        run: dotnet-releaser run --nuget-token "${{ secrets.NUGET_KEY }}" --github-token "${{ secrets.GITHUB_TOKEN }}" dotnet-releaser.toml
 
-permissions:
-  contents: write
+      - name: Upload binaries as artifact
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: binaries
+          path: src/artifacts-dotnet-releaser
+          if-no-files-found: 'error'
