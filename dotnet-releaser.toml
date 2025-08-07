@@ -1,0 +1,6 @@
+# configuration file for dotnet-releaser
+[msbuild]
+project = "DofusDbCommunity.sln"
+[github]
+user = "ismailbennani"
+repo = "DofusDBCommunity"
