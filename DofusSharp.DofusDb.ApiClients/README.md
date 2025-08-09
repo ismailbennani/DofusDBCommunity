@@ -1,4 +1,4 @@
-﻿# DofusDB Community - API Clients
+﻿# DofusDB API Clients
 
 > [!IMPORTANT]
 > This project is under active development. Note that not all available APIs have been implemented at this time.
@@ -10,7 +10,7 @@ Provides API clients for the DofusDB API. It offers both a low-level client (`Do
 Install via NuGet:
 
 ```
-dotnet add package DofusDbCommunity.ApiClients
+dotnet add package DofusSharp.DofusDb.ApiClients
 ```
 
 ## Usage

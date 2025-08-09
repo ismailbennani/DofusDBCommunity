@@ -1,4 +1,4 @@
-﻿# DofusDB Community - Models
+﻿# DofusDB Models
 
 > [!IMPORTANT]
 > This project is under active development. Note that not all models have been implemented at this time.
