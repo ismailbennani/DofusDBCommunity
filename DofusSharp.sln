@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DofusSharp.DofusDb.Models", "DofusSharp.DofusDb.Models\DofusSharp.DofusDb.Models.csproj", "{4967408F-AB1C-4C94-8D56-2D770D972791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DofusSharp.DofusDb.ApiClients", "DofusSharp.DofusDb.ApiClients\DofusSharp.DofusDb.ApiClients.csproj", "{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.EndToEnd.DofusDb.ApiClients", "Tests.EndToEnd.DofusDb.ApiClients\Tests.EndToEnd.DofusDb.ApiClients.csproj", "{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.UnitTests.DofusDb.ApiClients", "Tests.UnitTests.DofusDb.ApiClients\Tests.UnitTests.DofusDb.ApiClients.csproj", "{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DofusDb", "DofusDb", "{40F57244-FDA7-47BE-B5FB-DA00C7339485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4967408F-AB1C-4C94-8D56-2D770D972791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DB3FF4F-2C86-43D0-9D2C-7791D721C167} = {40F57244-FDA7-47BE-B5FB-DA00C7339485}
+		{4967408F-AB1C-4C94-8D56-2D770D972791} = {40F57244-FDA7-47BE-B5FB-DA00C7339485}
+		{A3DE0CCE-6B15-413D-AE71-3BB8360C4FC3} = {40F57244-FDA7-47BE-B5FB-DA00C7339485}
+		{D6FF4731-AE7C-4EF1-A67B-94C556AE7108} = {40F57244-FDA7-47BE-B5FB-DA00C7339485}
+	EndGlobalSection
+EndGlobal
